@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.resources;
+package com.educandoweb.workshopmongo.resources;
 
 import java.util.Date;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nelioalves.workshopmongo.domain.Post;
-import com.nelioalves.workshopmongo.resources.util.URL;
-import com.nelioalves.workshopmongo.services.PostService;
+import com.educandoweb.workshopmongo.domain.Post;
+import com.educandoweb.workshopmongo.resources.util.URL;
+import com.educandoweb.workshopmongo.services.PostService;
 
 @RestController
 @RequestMapping(value="/posts")
